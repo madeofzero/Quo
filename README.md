@@ -1,6 +1,6 @@
 # O – Feedback, Simplified
 
-**O** is a feedback tool built in public by [madeofzero](https://madeofzero.com). It’s designed for teams who want to streamline feedback without adding another bloated admin portal or tracking system. This tool is for direct, easy, actionable feedback loops. Built with simplicity, transparency, and speed in mind.
+**O** is a feedback tool built in public by [madeofzero](https://to.madeofzero.com/with-zero). It’s designed for teams who want to streamline feedback without adding another bloated admin portal or tracking system. This tool is for direct, easy, actionable feedback loops. Built with simplicity, transparency, and speed in mind.
 
 ## **Why We're Building O**  
 
@@ -40,12 +40,9 @@ We are a studio that thrives on simplicity, transparency, and efficiency. **O** 
    ```bash
    git clone https://github.com/madeofzero/o.git  
    cd o  
-   docker-compose up -d  
    ```
 
-2. Share the URL with stakeholders after completing a task. They can leave feedback directly in the tool.
-
-3. Review feedback in real-time. No need for extra documentation or video calls. Just actionable input.
+2. TBD
 
 ---
 
@@ -53,17 +50,20 @@ We are a studio that thrives on simplicity, transparency, and efficiency. **O** 
 
 We’re building **O** in public, and we welcome contributions. Whether you find bugs, have ideas for improvements, or want to add new features—submit an issue or open a pull request. Let’s make this tool better together.
 
+Link for feedbacks: TBD
+
 ---
 
 ## **License**
 
-**O** is open-source and released under the MIT License.
+**O** is open-source and released under the AGPL-3.0 License.
 
 
 ## **We're Still WIP**
-O is a work in progress. That means we’re still figuring out the final product, and things might change along the way. If you’re curious, just follow the repo and stay tuned for updates. We’ll be pushing new features and improvements as we go!
 
+**O** is a work in progress. We’re still figuring out the final product, and things might change along the way. If you're curious about the current design and direction of the project, feel free to [check out our Figma doc](https://to.madeofzero.com/meet-0).
 
+This doc contains the current wireframes, design ideas, and feature roadmap. We’ll keep it updated as we make progress, so feel free to take a look and give us feedback. Stay tuned for more changes!
 
 ---
 
