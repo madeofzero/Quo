@@ -1,4 +1,4 @@
-# O – Feedback, Simplified
+<img src="etc/homepage-banner.png">
 
 **O** is a feedback tool built in public by [madeofzero](https://to.madeofzero.com/with-zero). It’s designed for teams who want to streamline feedback without adding another bloated admin portal or tracking system. This tool is for direct, easy, actionable feedback loops. Built with simplicity, transparency, and speed in mind.
 
