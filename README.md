@@ -1,5 +1,10 @@
 <img src="etc/github-banner.png">
 
+![No Signup Needed](https://img.shields.io/badge/no-signup-00b894?style=for-the-badge)
+![Zero Training](https://img.shields.io/badge/zero-training-e17055?style=for-the-badge)
+![Instant Feedback](https://img.shields.io/badge/instant-feedback-d63031?style=for-the-badge)
+![Works With Any Site](https://img.shields.io/badge/works%20with-any%20website-0984e3?style=for-the-badge)
+
 **Quo** is a feedback tool built in public by [madeofzero](https://to.madeofzero.com/with-zero). It’s designed for teams who want to streamline feedback without adding another bloated admin portal or tracking system. This tool is for direct, easy, actionable feedback loops. Built with simplicity, transparency, and speed in mind.
 
 ## **Why We're Building Quo**  
