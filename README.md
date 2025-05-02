@@ -61,7 +61,7 @@ Link for feedbacks: TBD
 
 ## **We're Still WIP**
 
-**Quo** is a work in progress. We’re still figuring out the final product, and things might change along the way. If you're curious about the current design and direction of the project, feel free to [check out our Figma doc](https://to.madeofzero.com/meet-0).
+**Quo** is a work in progress. We’re still figuring out the final product, and things might change along the way. If you're curious about the current design and direction of the project, feel free to [check out our Figma doc](https://to.madeofzero.com/meet-quo).
 
 This doc contains the current wireframes, design ideas, and feature roadmap. We’ll keep it updated as we make progress, so feel free to take a look and give us feedback. Stay tuned for more changes!
 
