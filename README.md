@@ -43,11 +43,9 @@ We are a studio that thrives on simplicity, transparency, and efficiency. **Quo*
 ## 🗂 Project Structure
 
 ```
-apps/
-├── frontend/
-│   └── web-nextjs/     → Next.js frontend
-├── backend/
-└─  └── pocketbase/     → PocketBase backend
+[Root]/
+├── frontend/           → Next.js frontend
+├── pocketbase/         → PocketBase backend
 ````
 
 ---
@@ -67,8 +65,8 @@ This setup uses `docker-compose.override.yml` to enable hot reload and dev-frien
 docker-compose up --build
 ````
 
-* Frontend: [http://localhost:3000](http://localhost:3000)
-* Backend (PocketBase): [http://localhost:8090](http://localhost:8090)
+* Frontend: [http://localhost:3010](http://localhost:3010)
+* Backend (PocketBase): [http://localhost:8081](http://localhost:8081)
 
 > Changes to frontend files will hot-reload the app.
 
@@ -77,8 +75,8 @@ docker-compose up --build
 ## 🧑‍💻 Development Notes
 
 * Frontend dev server runs via `npm run dev`
-* PocketBase runs on port `8090` and stores data in `apps/backend/pocketbase/data`
-* API calls from frontend should point to `POCKETBASE_URL=http://backend:8090` (already set in Compose)
+* PocketBase runs on port `8081` and stores data in `pocketbase/data`
+* API calls from frontend should point to `POCKETBASE_URL=http://pocketbase:8081` (already set in Compose)
 
 ---
 

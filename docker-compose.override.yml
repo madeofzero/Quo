@@ -3,11 +3,11 @@ version: "3.9"
 services:
   frontend:
     build:
-      context: ./apps/frontend/web-nextjs
+      context: ./frontend
       dockerfile: Dockerfile.dev
     volumes:
-      - ./apps/frontend/web-nextjs:/app
+      - ./frontend:/app
       - /app/node_modules
     environment:
       - NODE_ENV=development
-      - POCKETBASE_URL=http://localhost:8090
+      - POCKETBASE_URL=http://localhost:8081

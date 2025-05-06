@@ -3,26 +3,26 @@ version: "3.9"
 services:
   frontend:
     build:
-      context: ./apps/frontend/web-nextjs
+      context: ./frontend
       dockerfile: Dockerfile
     container_name: frontend
     ports:
       - "3010:3000"
     environment:
       - NODE_ENV=production
-      - POCKETBASE_URL=${POCKETBASE_URL:-http://backend:8090}
+      - POCKETBASE_URL=${POCKETBASE_URL:-http://pocketbase:8081}
     depends_on:
-      - backend
+      - pocketbase
     restart: unless-stopped
 
-  backend:
+  pocketbase:
     image: ghcr.io/coollabsio/pocketbase:latest
-    container_name: backend
+    container_name: pocketbase
     ports:
       - "8081:8080"
     volumes:
-      - ./apps/backend/pocketbase/data:/pb_data
-      - ./apps/backend/pocketbase/public:/pb/pb_public
-      - ./apps/backend/pocketbase/migrations:/pb/pb_migrations
+      - ./pocketbase/data:/pb_data
+      - ./pocketbase/public:/pb/pb_public
+      - ./pocketbase/migrations:/pb/pb_migrations
 
     restart: unless-stopped
