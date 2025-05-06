@@ -1,6 +1,5 @@
 <img src="etc/github-banner.png">
 
-![Work in progress]([https://img.shields.io/badge/work-in-progress-e17045?style=for-the-badge](https://img.shields.io/badge/work%20in%20progress-8A2BE2))
 ![Unstable build](https://img.shields.io/badge/Unstable%20Build-B90078)
 
 **Quo** is a feedback tool built in public by [madeofzero](https://to.madeofzero.com/with-zero). It’s designed for teams who want to streamline feedback without adding another bloated admin portal or tracking system. This tool is for direct, easy, actionable feedback loops. Built with simplicity, transparency, and speed in mind.
