@@ -39,15 +39,71 @@ We are a studio that thrives on simplicity, transparency, and efficiency. **Quo*
 
 ---
 
-## **How to Use O**
 
-1. Clone the repo and set up your environment.
-   ```bash
-   git clone https://github.com/madeofzero/o.git  
-   cd Quo  
-   ```
+## 🗂 Project Structure
 
-2. TBD
+```
+apps/
+├── frontend/
+│   └── web-nextjs/     → Next.js frontend
+├── backend/
+└─  └── pocketbase/     → PocketBase backend
+````
+
+---
+
+## 🚀 Requirements
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+---
+
+## 🧪 Local Development
+
+This setup uses `docker-compose.override.yml` to enable hot reload and dev-friendly config.
+
+```bash
+docker-compose up --build
+````
+
+* Frontend: [http://localhost:3000](http://localhost:3000)
+* Backend (PocketBase): [http://localhost:8090](http://localhost:8090)
+
+> Changes to frontend files will hot-reload the app.
+
+---
+
+## 🧑‍💻 Development Notes
+
+* Frontend dev server runs via `npm run dev`
+* PocketBase runs on port `8090` and stores data in `apps/backend/pocketbase/data`
+* API calls from frontend should point to `POCKETBASE_URL=http://backend:8090` (already set in Compose)
+
+---
+
+## 🧱 Production Build
+
+In production (e.g. on Coolify), only `docker-compose.yml` is used. This uses the production `Dockerfile`, runs `next build`, and starts an optimized server.
+
+To simulate production locally:
+
+```bash
+docker-compose -f docker-compose.yml up --build
+```
+
+---
+
+## 🛠 Troubleshooting
+
+WIP
+
+---
+
+## 🧠 Credits
+
+* Frontend: [Next.js](https://nextjs.org)
+* Backend: [PocketBase](https://pocketbase.io)
 
 ---
 
@@ -61,7 +117,7 @@ Link for feedbacks: TBD
 
 ## **License**
 
-**Quo** is open-source and released under the AGPL-3.0 License.
+**Quo** is open-source and released under the MIT License(with commercial use restriction).
 
 
 ## **We're Still WIP**
